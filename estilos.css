@@ -1,10 +1,3 @@
-/* Seleccionamos el body y lo configuramos para que ocupe todo el ancho y alto de la pantalla */
-main {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	background-color: gray;
-  }
   
   /* Configuramos el encabezado para que se muestre centrado y con un fondo de color */
   header {
@@ -34,39 +27,41 @@ main {
 	color: white;
   }
   
-  /* Configuramos el contenedor principal para que ocupe todo... el ancho y alto disponible */
+/* Configuramos el contenedor principal para que ocupe todo el ancho y alto disponible */
 main {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	flex-grow: 1;
-	padding-left: 10%;
-	padding-right: 10%;
-	}
-	
-/* Configuramos cada sección que contiene la imagen y el título de cada juego */
-section {
-width: 400px;
-margin: 20px;
-text-align: center;
-}
+	padding: 20px;
+	background-color: gray;
 
-section img {
-width: 100%;
-height: auto;
-}
-
-section h2 {
-margin: 10px 0 0;
-}
-
-/* Configuramos los enlaces de los juegos */
-section a {
-text-decoration: none;
-color: #333;
-}
-
-section a:hover {
-opacity: 0.8;
-}
+  }
+  
+  /* Configuramos cada sección que contiene la imagen y el título de cada juego */
+  section {
+	width: 400px;
+	margin: 40px;
+	text-align: center;
+  }
+  
+  section img {
+	width: 100%;
+	height: auto;
+  }
+  
+  section h2 {
+	margin: 10px 0 0;
+  }
+  
+  /* Configuramos los enlaces de los juegos */
+  section a {
+	text-decoration: none;
+	color: #333;
+  }
+  
+  section a:hover {
+	opacity: 0.8;
+  }
+  
